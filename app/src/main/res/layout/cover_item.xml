@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cover_card"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius = "12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/cover_img"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <TextView
+            android:id="@+id/cover_title"
+            android:background="#885C5C5C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"/>
+    </RelativeLayout>
+    <!--
+              android:layout_alignLeft="@id/cover_img"
+            android:layout_alignTop="@id/cover_img"
+            android:layout_alignRight="@id/cover_img"
+            android:layout_alignBottom="@id/cover_img"
+        -->
+  />
+</android.support.v7.widget.CardView>
